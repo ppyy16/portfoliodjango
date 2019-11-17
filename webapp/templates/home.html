@@ -1,0 +1,124 @@
+{% load static %}
+
+<!doctype html>
+
+<html lang="en">
+<head>
+	<title>Parima Sahbai - Portfolio</title>
+
+
+	 <link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}">
+
+
+
+	 <link href="https://fonts.googleapis.com/css?family=Comfortaa|Montserrat+One&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+<!-- 	Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+<div class="myintro">
+<p class="intro"> Parima Sahbai <p class="smalltext"> Software, art, and UI/UX Developer</p></p>
+
+</div>
+</head>
+
+<body>
+
+	<div class="constr">
+		<p>Welcome! I'm continuously working to make this website better and show you more of my work! Please be patient :)</p>
+	</div>
+<div class="middlepart">
+
+
+<div class="profilepicdiv">
+	<img class="profilepic" src="{% static "img/gradpic.jpg" %}" alt="My Graduation picture!">
+</div>
+
+	<p> Hi there! What are you looking to see?</p>
+
+
+
+
+<div class="mc">
+  <div class="row text-center">
+ <div class="col-4">
+	<button id="introbutton" type="button" class="btn btn-light introbutton  grayout">Studio Arts</button></div>
+	 <div class="col-4">
+
+	<button onclick="location.href='uiux'" id="introbutton" type="button" class="btn btn-light introbutton">UI/UX</button></div>
+	 <div class="col-4">
+	<button id="introbutton" type="button" class="btn btn-light introbutton  grayout">Software Dev</button></div>
+
+</div>
+</div>
+	
+ <hr class="endcred">
+
+<div>
+<a href="#" id='contact' class= "bottombuttons linkbtn"> Contact </a>
+<a href="#" id='about' class= "bottombuttons linkbtn">  About</a>
+<a href="#" id='resume' class= "bottombuttons linkbtn"> Resume </a>
+</div>
+
+
+</div>
+
+<div class="bottompart">
+
+	</div>
+
+
+<!-- 	modal -->
+
+<div class='bg-modal'>
+	<div class='modal-content' >
+		<div class="close">+</div>
+		<div class='resumecontent'>
+    <iframe class='pdf' src="{% static 'docs/parimasahbairesume.pdf' %}"></iframe>
+</div>
+<div class='contactcontent'>
+	<div class=contacticon>
+		<a href="mailto:ps4ww@virginia.edu" target="_blank">
+	<img class="contacticon email" src="{% static "img/email.png" %}" alt="email: ps4ww@virginia.edu">
+</a>
+	<p class='contactsheettext'>ps4ww@virginia.edu</p>
+	<a href="https://www.linkedin.com/in/psahbai/" target="_blank">
+	<img class="contacticon linkedin" src="{% static "img/linkedin.png" %}" alt="LinkedIn: Parima Sahbai">
+</a>
+<br><br><br>
+<p class='contactsheettext'> Feel free to contact me on any of the above mediums!</p>
+	<br><br><div class='credit'>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a></div>
+</div>
+
+
+
+
+
+	</div>
+	<div class='aboutcontent' id="aboutcontentid">
+<br><br>
+
+
+    <p>How is it going? I'm <b>Parima </b>(Pa-ra-ma) <b>Sahbai (saba ee)</b>. I was born in Tehran, Iran but grew up in Virginia Beach, VA (US Citizen!), always having a knack for software and web development and Art as well. I graduated from the <b>University of Virginia</b> (wahoowa) in May 2018 with my bachelors in <b>computer science (BA)</b> and a <b>minor in the studio arts</b>. I stayed in school and will be recieving my Masters in <b>computer science (MCS)</b> in December 2019!<br><br><br> Interested in my qualifications or want to know about? Take a look at my resume and feel free to contact me!</p></p>
+<!-- <b> Fun Facts and relevant skills highlight: </b> Python Java, Adobe Suites, specially photoshop and XD, various video editing software, Figma,  -->
+    </p>
+
+
+
+
+
+  </div>
+
+	</div>
+
+	</div>
+
+
+
+</body>
+
+	 <script type="text/javascript" src="{% static 'scripts/home.js' %}"></script>
+
+</html>
