@@ -19,7 +19,7 @@ document.getElementById('resume').addEventListener("click", function() {
 document.getElementById('about').addEventListener("click", function() {
 	document.querySelector('.bg-modal').style.display = "flex";
 	document.querySelector('.aboutcontent').style.display = "flex";
-	$('#aboutcontentid').css('display','inline-block');
+	//$('#aboutcontentid').css('display','inline-block');
 
 
 });
