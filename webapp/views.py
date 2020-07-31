@@ -9,3 +9,12 @@ def index(request):
 
 def uiux(request):
 	return render_to_response('uiux.html')
+
+def webdev(request):
+	return render_to_response('webdev.html')
+
+def art(request):
+	return render_to_response('art.html')
+
+def menu(request):
+	return render_to_response('menu.html')

@@ -2,10 +2,10 @@
 
 window.onload = function () {
     document.querySelector('.bg-modal').style.display = "none";
-	document.querySelector('.resumecontent').style.display = "none";
-	document.querySelector('.pdf').style.display = "none";
+	// document.querySelector('.resumecontent').style.display = "none";
+	// document.querySelector('.pdf').style.display = "none";
 
-	document.querySelector('.contactcontent').style.display = "none";
+	// document.querySelector('.contactcontent').style.display = "none";
 }
 
 document.getElementById('resume').addEventListener("click", function() {

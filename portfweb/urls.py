@@ -22,7 +22,9 @@ from webapp import views as v
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', v.index),
-    url(r'^uiux/$', v.uiux)
-
+    url(r'^uiux/$', v.uiux),
+    url(r'^webdev/$', v.webdev),
+    url(r'^art/$', v.art),
+    url(r'^menu/$', v.menu)
 
 ]
