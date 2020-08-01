@@ -20,13 +20,92 @@
             $('#header').load('../menu');
          });
       </script>
+
+
 </head>
+<body>
+
+ <div id="maincontainer">
+
+  <section class="main text-center" style="overflow: auto">
+  <div class="container">
+   
+    <ul class="list-unstyled row">
+      <li class="col-md active" data-class="all">All</li>
+      <li class="col-md" data-class="games">Games</li>
+      <li class="col-md" data-class="mobile">Mobile Apps</li>
+      <li class="col-md" data-class="watch">Watch Apps</li>
+      <li class="col-md" data-class="web">Web Apps</li>
+      <li class="col-md" data-class="other">Other</li>
+
+
+    </ul>
+  </div>
+  <div class="container-fluid">
+    <div class="col-md-3 images" id='bubbletea' data-class="games">
+      <img src="{% static "img/bobafever.png" %}" alt="Bubble Tea Game">
+       <div class="work-text-content">
+    <p>Boba Fever</p>
+  </div>
+    </div>
+
+
+
+       <div class="col-md-3 images" id='artisticgroove' data-class="games">
+      <img src="{% static "img/artisticgroove.png" %}" alt="Artistic Groove">
+       <div class="work-text-content">
+    <p>Artistic Groove</p>
+  </div>
+    </div>
+
+
+
+
+
+    </div>
+    
+  </div>
+</section>
+ 
+
+
+
+ </div>
+
+
+
+<div class='bg-modal'>
+  <div class='modal-content' >
+    <div class="close">+</div>
+
+
+
+  <div class='artisticgroovecont'>
+
+<p>yes</p>
+  </div>
+
+
+
+
+
+  <div class='bubbleteacont'>
+    <iframe frameborder="0" src="https://itch.io/embed-upload/1424307?color=333333" allowfullscreen="" width="450" height="310"><a href="https://ppyy16.itch.io/boba-fever">Play Boba Fever on itch.io</a></iframe>
+
+
+
+  </div>
+
 
 
 <body>
 
 
 <div id="header"></div>
+
+<script type="text/javascript" src="{% static 'scripts/dev.js' %}"></script>
+<script type="text/javascript" src="{% static 'scripts/function.js' %}"></script>
+
 
 </body>
 </html>

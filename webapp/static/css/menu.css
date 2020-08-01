@@ -203,6 +203,13 @@ iframe {
 .contactcontent {
   display: none; }
 
+
+.artisticgroovecont {
+  display: none; }
+
+  .bubbleteacont {
+  display: none; }
+
 .contactsheettext {
   align-items: center;
   text-align: center;
@@ -227,17 +234,12 @@ iframe {
   /* Viewport-relative units */
   width: 99%; }
 
-.hackmob {
+
+
+.artisticgroove {
   display: none; }
 
-.hackweb {
-  display: none; }
 
-.hackwebimg {
-  width: 60%; }
-
-.hackmobimg {
-  height: 40%; }
 
 .main {
   padding: 50px 0; }

@@ -25,6 +25,6 @@ urlpatterns = [
     url(r'^uiux/$', v.uiux),
     url(r'^webdev/$', v.webdev),
     url(r'^art/$', v.art),
-    url(r'^menu/$', v.menu)
-
+    url(r'^menu/$', v.menu),
+    url(r'^menu/$', v.footer)
 ]

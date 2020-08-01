@@ -18,3 +18,7 @@ def art(request):
 
 def menu(request):
 	return render_to_response('menu.html')
+
+
+def footer(request):
+	return render_to_response('footer.html')
