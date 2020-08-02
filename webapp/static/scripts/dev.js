@@ -29,9 +29,10 @@ document.querySelector('.close').addEventListener("click", function() {
 	document.querySelector('.aboutcontent').style.display = "none";
 	document.querySelector('.bg-modal-2').style.display = "none";
 	document.querySelector('.bg-modal').style.display = "none";
-
 	document.querySelector('.resumecontent').style.display = "none";
 	document.querySelector('.contactcontent').style.display = "none";
+	document.querySelector('.bubbleteacont').style.display = "none";
+	document.querySelector('.artisticgroovecont').style.display = "none";
 
 
 
