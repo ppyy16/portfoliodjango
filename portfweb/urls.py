@@ -26,5 +26,6 @@ urlpatterns = [
     url(r'^webdev/$', v.webdev),
     url(r'^art/$', v.art),
     url(r'^menu/$', v.menu),
-    url(r'^menu/$', v.footer)
+    url(r'^footer/$', v.footer),
+    url(r'^modal/$', v.modal)
 ]

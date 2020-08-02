@@ -1,6 +1,32 @@
+{% load static %}
+
+<!doctype html>
 
 
-<script type="text/javascript" src="{% static 'scripts/function.js' %}"></script>
+<!-- <script type="text/javascript" src="{% static 'scripts/function.js' %}"></script>
+ -->
+
+<!-- <script type="text/javascript" src="{% static 'scripts/realmenu.js' %}"></script>
+ -->
+<script type="text/javascript">
 
 
-<script type="text/javascript" src="{% static 'scripts/realmenu.js' %}"></script>
+document.querySelector('.close').addEventListener("click", function() {
+
+	document.querySelector('artisticgroovecont').style.display = "none";
+
+	
+
+
+});
+
+
+
+document.querySelector('.close').addEventListener("click", function() {
+	document.querySelector('.aboutcontent').style.display = "none";
+	document.querySelector('.bg-modal').style.display = "none";
+	document.querySelector('.resumecontent').style.display = "none";
+	document.querySelector('.contactcontent').style.display = "none";
+
+
+</script>

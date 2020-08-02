@@ -6,7 +6,6 @@
 
 	 <link rel="stylesheet" type="text/css" href="{% static 'css/menu.css' %}">
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">
 
@@ -20,6 +19,7 @@
             $('#header').load('../menu');
          });
       </script>
+
 
 
 </head>
@@ -74,37 +74,47 @@
 
 
 
-<div class='bg-modal'>
-  <div class='modal-content' >
+
+
+<!-- modal -->
+
+
+
+
+
+<div class='bg-modal-2'>
+  <div class='modal-content-2' >
     <div class="close">+</div>
 
 
-
-  <div class='artisticgroovecont'>
-
-<p>yes</p>
+   <div class='artisticgroovecont'><p>yes</p></div>
+ <div class='bubbleteacont'>
+<!--     <iframe frameborder="0" src="https://itch.io/embed-upload/1424307?color=333333" allowfullscreen="" width="450" height="310"><a href="https://ppyy16.itch.io/boba-fever">Play Boba Fever on itch.io</a></iframe> -->
   </div>
 
+</div>
 
-
-
-
-  <div class='bubbleteacont'>
-    <iframe frameborder="0" src="https://itch.io/embed-upload/1424307?color=333333" allowfullscreen="" width="450" height="310"><a href="https://ppyy16.itch.io/boba-fever">Play Boba Fever on itch.io</a></iframe>
-
-
-
-  </div>
-
-
-
-<body>
-
-
+</div>
 <div id="header"></div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script>
+         $(document).ready(function(){
+            $('#modal').load('../modal');
+         });
+      </script>
+      <script>
+         $(document).ready(function(){
+            $('#footer').load('../footer');
+         });
+      </script>
 
 <script type="text/javascript" src="{% static 'scripts/dev.js' %}"></script>
 <script type="text/javascript" src="{% static 'scripts/function.js' %}"></script>
+
+
 
 
 </body>

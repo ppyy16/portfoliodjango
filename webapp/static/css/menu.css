@@ -173,6 +173,7 @@ iframe {
   overflow-y: initial !important; }
 
 .modal-content {
+  z-index: 2;
   margin-top: 10px;
   box-shadow: 4px 5px 0px 1px #B74905;
   border-radius: 10px;
@@ -185,6 +186,34 @@ iframe {
   margin-right: 15%;
   margin-left: 15%;
   overflow-y: auto; }
+
+
+.bg-modal-2 {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: left;
+  overflow-y: initial !important; }
+
+.modal-content-2 {
+  z-index: 2;
+  margin-top: 10px;
+  box-shadow: 4px 5px 0px 1px #B74905;
+  border-radius: 10px;
+  height: 80%;
+  width: 80%;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  margin-right: 15%;
+  margin-left: 15%;
+  overflow-y: auto; }
+
 
 .aboutcontent {
   display: none; }
@@ -223,7 +252,7 @@ iframe {
   margin-top: 15px; }
 
 .resumecontent {
-  display: none;
+  display: none; !important;
   border-radius: 10px;
   display: block;
   /* iframes are inline by default */
@@ -236,9 +265,9 @@ iframe {
 
 
 
+
 .artisticgroove {
   display: none; }
-
 
 
 .main {

@@ -22,3 +22,8 @@ def menu(request):
 
 def footer(request):
 	return render_to_response('footer.html')
+
+
+
+def modal(request):
+	return render_to_response('modal.html')
