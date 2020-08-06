@@ -33,7 +33,7 @@ document.getElementById('about').addEventListener("click", function() {
 
 
 
-document.querySelector('.close').addEventListener("click", function() {
+document.querySelector("#header > div.bg-modal > div > div.close").addEventListener("click", function() {
 	document.querySelector('.aboutcontent').style.display = "none";
 	document.querySelector('.bg-modal').style.display = "none";
 	document.querySelector('.resumecontent').style.display = "none";
