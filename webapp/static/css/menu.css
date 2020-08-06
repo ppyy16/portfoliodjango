@@ -200,6 +200,7 @@ iframe {
   overflow-y: initial !important; }
 
 .modal-content-2 {
+  display: block;
   z-index: 2;
   margin-top: 10px;
   box-shadow: 4px 5px 0px 1px #B74905;
@@ -207,7 +208,7 @@ iframe {
   height: 80%;
   width: 80%;
   background-color: white;
-  text-align: center;
+  text-align: left;
   padding: 20px;
   position: relative;
   margin-right: 15%;

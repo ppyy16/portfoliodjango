@@ -55,6 +55,9 @@ document.getElementById('mlproj').addEventListener("click", function() {
 
 
 
+
+
+
 document.querySelector('.close').addEventListener("click", function() {
 	document.querySelector('.aboutcontent').style.display = "none";
 	document.querySelector('.bg-modal-2').style.display = "none";
@@ -66,8 +69,12 @@ document.querySelector('.close').addEventListener("click", function() {
 	document.querySelector('.minimarketcont').style.display = "none";
 	document.querySelector('.nasapowercont').style.display = "none";
 	document.querySelector('.mlprojcont').style.display = "none";
+	document.querySelector('.video').style.display = "none";
 
 
 
 
 });
+
+
+
