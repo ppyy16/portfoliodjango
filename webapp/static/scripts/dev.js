@@ -25,6 +25,36 @@ document.getElementById('artisticgroove').addEventListener("click", function() {
 
 });
 
+
+
+document.getElementById('minimarket').addEventListener("click", function() {
+	document.querySelector('.bg-modal-2').style.display = "flex";
+	document.querySelector('.minimarketcont').style.display = "flex";
+
+
+});
+
+
+
+document.getElementById('nasapower').addEventListener("click", function() {
+	document.querySelector('.bg-modal-2').style.display = "flex";
+	document.querySelector('.nasapowercont').style.display = "flex";
+
+
+});
+
+
+
+document.getElementById('mlproj').addEventListener("click", function() {
+	document.querySelector('.bg-modal-2').style.display = "flex";
+	document.querySelector('.mlprojcont').style.display = "flex";
+
+
+});
+
+
+
+
 document.querySelector('.close').addEventListener("click", function() {
 	document.querySelector('.aboutcontent').style.display = "none";
 	document.querySelector('.bg-modal-2').style.display = "none";
@@ -33,6 +63,9 @@ document.querySelector('.close').addEventListener("click", function() {
 	document.querySelector('.contactcontent').style.display = "none";
 	document.querySelector('.bubbleteacont').style.display = "none";
 	document.querySelector('.artisticgroovecont').style.display = "none";
+	document.querySelector('.minimarketcont').style.display = "none";
+	document.querySelector('.nasapowercont').style.display = "none";
+	document.querySelector('.mlprojcont').style.display = "none";
 
 
 
