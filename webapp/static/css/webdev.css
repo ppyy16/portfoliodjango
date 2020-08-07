@@ -1,4 +1,23 @@
-#mel {
+.inmodimage {
+	height: 50%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
 
-	height: 5%;
+}
+
+.intitle {
+	display: center;
+
+}
+
+.contwords {
+	display: block;
+}
+
+.in {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 15px;
 }

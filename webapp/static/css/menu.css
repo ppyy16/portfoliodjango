@@ -197,10 +197,10 @@ iframe {
   display: none;
   justify-content: center;
   align-items: left;
+  z-index: 3;
   overflow-y: initial !important; }
 
 .modal-content-2 {
-  display: block;
   z-index: 2;
   margin-top: 10px;
   box-shadow: 4px 5px 0px 1px #B74905;
