@@ -2,7 +2,7 @@
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-
+	padding: 10px;
 }
 
 
@@ -12,10 +12,26 @@ display: block;
 }
 
 .hackwebimg {
+		display: block;
+	margin-right: auto;
+	margin-left: auto;
   width: 60%; }
 
 .hackmobimg {
-  height: 40%; }
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+#gameinfo {
+	display: block;
+}
+
+.imagenextto {
+text-align: center;
+
+}
 
 
 #mel {
@@ -36,6 +52,7 @@ display: block;
     width: 100%;
     margin: 0 auto;
     margin-top: 15px;
+    padding: 10px;
 }
 
 

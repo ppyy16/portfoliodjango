@@ -155,29 +155,68 @@
    <div class='artisticgroovecont'>
      <div class= gamecont>
       <h2 class="intitle">Artistic Groove</h2>
-      <sub> Scroll down for more information!</sub>
+        <span>This game was a prototype and a part of the Computational Thinking K-12 Project that I did with Professor Rich Nguyen, at UVA. You can read more about the project, in my paper below. In this game the aim is to recreate the image (randomly selected) using various shapes. You can rotate these shapes by right clicking and place them appropriately on the canvas to create an abstract version of the image provided. This game was coded in C#, in Unity. </span>
 
-<!--     <iframe class="game" frameborder="0" src="https://itch.io/embed-upload/1419497?color=333333" allowfullscreen="" width="800" height="500"><a href="https://ppyy16.itch.io/artisticgroove">Play ArtisticGroove on itch.io</a></iframe>
- --></div>
+    <iframe class="game" frameborder="0" src="https://itch.io/embed-upload/1419497?color=333333" allowfullscreen="" width="800" height="500"><a href="https://ppyy16.itch.io/artisticgroove">Play ArtisticGroove on itch.io</a></iframe>
+<br>
+   <iframe class='pdf' src="{% static 'docs/artisticgroove.pdf' %}"></iframe>
+
+
+        <sub class="msub" >You can see the code <a href="https://github.com/ppyy16/CTProj">here</a> in my Github Repo</sub>
+
+
+
+
+</div>
    </div>
  <div class='bubbleteacont'>
   <div class= "gamecont">
   <h2 class="intitle">Boba Fever</h2>
-  <sub> Scroll down for more information!</sub>
-<!--     <iframe class="game" frameborder="0" src="https://itch.io/embed-upload/1424307?color=333333" allowfullscreen="" width="800" height="500"><a href="https://ppyy16.itch.io/boba-fever">Play Boba Fever on itch.io</a></iframe>
- -->  </div>
+        <span>I developed this game out of my own love for the popular Taiwanese drink: Bubble (boba) Tea. Although I did not extensively work on the UI/UX design, but besides coding the game, I did create all the graphics from the photo of Ikea (where I was working) as the background, to the pixel graphics in the game. This game was coded in C#, in Unity. </span>
+    <iframe class="game" frameborder="0" src="https://itch.io/embed-upload/1424307?color=333333" allowfullscreen="" width="800" height="500"><a href="https://ppyy16.itch.io/boba-fever">Play Boba Fever on itch.io</a></iframe>
+
+        <sub class="msub" >You can see the code <a href="https://github.com/ppyy16/bobagame">here</a> in my Github Repo</sub>
+
+
+
+  </div>
+
+ <div class="in" id="gameinfo"> 
+
+
+ </div>
 </div>
 
 
    <div class='nasapowercont'>
 
+    <div class="in">
+
+      <h2 class="intitle">NASA Power Application</h2>
+
+      <p>The NASA power application redesign, was a UX/UI and partial recoding of the existing web page which can be seen <a href="https://power.larc.nasa.gov/data-access-viewer/" >here</a>. This webpage is meant to be a helpful visualization of the location of solar panels and other NASA equipment that may be useful to the public. However, the UI/UX for this page is horrendously awful for the user and I was informed that the software was developed with a commercial software generator, causing the program to have pages upon pages of machine generated code which was hard to manipulate and update which had left the program in an awful condition. My job as a contractor for Booz Allen Hamilton was to redesign the page above and get done as much of a shell of the program as I could before my month long internship came to an end. During my time, I questioned employees about the usability of the program and what features need to be kept, scrapped, or improved and drew wireframes. I then came up with an interface design in Adobe XD as you can see below. </p>
+
+           <img src="{% static "img/nasapower.png" %}" alt="NASA Power UI in XD" class="inmodimage">
+
+      During my time, I also developed a semi-working interface through Javascript, HTML, CSS, and Django which you can see the code of in my <a href="https://github.com/ppyy16/NASAPOWERUI"> GitHub Repo.</a>
+
+    </div>
+
 </div>
 
    <div class='mlprojcont'>
 
+          <div class="in">
       <h2 class="intitle">Machine Learning for VA</h2>
 
- <!--  <iframe class="video" id="modal-video" width="560" height="315" src="https://www.youtube.com/embed/dMe4nu39vDo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+<p> Machine Learning for VA, was an in-class end of the year assignment for my Graduate learning Machine Learning course. The aim of the project was to create something useful for the residents of Virginia, with machine learning algorithms and pyton. You can see our work in the youtube video below. I created this video using Adobe Premiere, and photoshop, and then voiced as well as edited it as well. We were selected as one of the top 8/32 presentations at the end of the semseter. You can also read our final paper below.</p>
+
+  <iframe class="video" id="modal-video" width="560" height="315" src="https://www.youtube.com/embed/dMe4nu39vDo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+   <iframe class='pdf' src="{% static 'docs/ML4VAd.pdf' %}"></iframe>
+
+</div>
+
 
 </div>
 
@@ -191,8 +230,12 @@
     <br>
     <span class="contwords"> Initially, my idea of coding and manipulating this algorithm to work for image modification was to only gather points which have high entropy, meaning that they would capture the significant parts of the image where data retention is neccesary. After making this somewhat work, I realized that the image simply did not look like the original enough and realized that a randomized set of points would do just as well, if not better at preserving the image as well as reducing the error in detecting points of entropy in the first place which resulted in the final program. You can see the results below, turned out pretty well if I may say so myself!</span> <br> 
 
+
     <img class= "inmodimage" id="mel" src="{% static "img/melsample.png" %}" alt="Voronoi Sample">
     <sub class="msub">As you can see, with an increased number of cells and points, the image becomes less and less abstract and more similar to the orginal</sub>
+
+    <sub class="msub" >You can see the code <a href="https://github.com/ppyy16/6161Final">here</a> in my Github Repo</sub>
+
 
 </div>
 
@@ -218,6 +261,7 @@
 
 
 <div class='resumecontent spotify'>
+
         <iframe class='pdf' src="{% static 'docs/spotify.pdf' %}"></iframe>
 
 </div>
@@ -226,20 +270,39 @@
 
   <div class='hackweb'>
 
+  <div class="in">
+      <h2 class="intitle"> HackCville Web Mockup</h2>
 
-     <img class='hackwebimg' src="{% static "img/hackcville1.png" %}" alt="Hackcville Web Remake Project"> 
     <p>This was a small project that I did with HackCville, during a UI/UX course that I took in 2019. Objective: Using Figma, create a pleasing benner for a website. </p>
+
+         <img class='hackwebimg' src="{% static "img/hackcville1.png" %}" alt="Hackcville Web Remake Project"> 
+
+
+
+  </div>
   </div>
 
 
 
   <div class='hackmob'>
+  
+  <div class="in">
+      <h2 class="intitle"> HackCville Mobile Mockup</h2>
+    <p>This was a small project that I did with HackCville, during a short UI/UX course that I took in 2019. Objective: Remake the applcation UI in Figma. </p>
 
-     <img class='hackmobimg'src="{% static "img/hackcville2.png" %}" alt="Hackcville Web Remake Project">
+    <div class="imagenextto">
+          <img class='hackmobimg'src="{% static "img/original.png" %}" alt="Hackcville Web Remake Project">
 
-    <p>This was a small project that I did with HackCville, during a UI/UX course that I took in 2019. Objective: Remake the applcation UI in Figma. </p>
+         <img class='hackmobimg'src="{% static "img/hackcville2.png" %}" alt="Hackcville Web Remake Project">
+
+       </div>
+
+                <sub class="msub"> Original on the left, my remake in Figma on the right</sub>
+
+
   </div>
 
+</div>
 
 </div>
 
