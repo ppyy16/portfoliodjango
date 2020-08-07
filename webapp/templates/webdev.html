@@ -35,10 +35,11 @@
    
     <ul class="list-unstyled row">
       <li class="col-md active" data-class="all">All</li>
+      <li class="col-md" data-class="uiux">UI/UX</li>
       <li class="col-md" data-class="games">Games</li>
-      <li class="col-md" data-class="software">Software</li>
-      <li class="col-md" data-class="web">Web Apps</li>
+      <li class="col-md" data-class="software">Software/web</li>
       <li class="col-md" data-class="mobile">Mobile Apps</li>
+      <li class="col-md" data-class="uiux">UI/UX</li>
       <li class="col-md" data-class="other">Other</li>
 
 
@@ -59,7 +60,7 @@
 
 
 
-         <div class="col-md-3 images" id='nasapower' data-class="web">
+         <div class="col-md-3 images" id='nasapower' data-class="uiux">
       <img src="{% static "img/nasapower.png" %}" alt="NASA Power UI">
        <div class="work-text-content">
     <p>NASA Power Application</p>
@@ -94,6 +95,34 @@
     <p>Virginia Machine Learning</p>
   </div>
     </div>
+    <div class="col-md-3 images" id='GH' data-class="uiux">
+      <img src="{% static "img/guidline2.png" %}" alt="GrubHub Case Study">
+       <div class="work-text-content">
+    <p>GrubHub Case Study</p>
+  </div>
+    </div>
+    <div class="col-md-3 images" id='samsung' data-class="uiux">
+<img src="{% static "img/samsung.png" %}" alt="Samsung Case Study">    <div class="work-text-content">
+    <p>Samsung Case Study</p>
+  </div>
+
+</div>
+    <div class="col-md-3 images" id='spotify' data-class="uiux">
+      <img src="{% static "img/spotifyfront.jpg" %}" alt="Spotify Case Study">   <div class="work-text-content">
+    <p>Spotify Case Study</p>
+  </div> </div>
+
+
+  <div class="col-md-3 images" id="hackmobbtn" data-class="uiux">
+      <img src="{% static "img/hackcville2preview.png" %}" alt="Hackcville App Remake Project">   <div class="work-text-content">
+    <p>Hackcville App Remake Project</p>
+  </div> </div>
+
+
+  <div class="col-md-3 images" id= "hackwebbtn" data-class="uiux">
+      <img src="{% static "img/hackcville1preview.png" %}" alt="Hackcville Web Remake Project">   <div class="work-text-content">
+    <p>Hackcville Web Remake Project</p>
+  </div>
 
 
 
@@ -145,6 +174,9 @@
 </div>
 
    <div class='mlprojcont'>
+
+      <h2 class="intitle">Machine Learning for VA</h2>
+
  <!--  <iframe class="video" id="modal-video" width="560" height="315" src="https://www.youtube.com/embed/dMe4nu39vDo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 </div>
@@ -152,7 +184,7 @@
 
    <div class='minimarketcont'>
     <div class="in">
-    <h2 class="intitle"> Welcome to Photo Mini-Market!</h2>
+    <h2 class="intitle"> Photo Mini-Market!</h2>
     <span class="contwords"> In this project, me and a group of classmates and friends decided to create image manipulation "filters" by using seam carving and Voronoi diagrams. I will only be speaking about Voronoi as that was my contribution to the project. </span> <br>
         <img class= "inmodimage" id="pmarket" src="{% static "img/minimarketprog.png" %}" alt="Voronoi Sample">
 
@@ -166,6 +198,49 @@
 
 
 </div>
+
+<div class='resumecontent csclass'>
+
+
+  <iframe class='pdf' src="{% static 'docs/guidelines.pdf' %}"></iframe>
+
+
+  </div>
+
+
+  <div class='resumecontent samsung'>
+      <iframe class='pdf' src="{% static 'docs/Samsung.pdf' %}"></iframe>
+
+
+  </div>
+
+
+
+
+<div class='resumecontent spotify'>
+        <iframe class='pdf' src="{% static 'docs/spotify.pdf' %}"></iframe>
+
+</div>
+
+
+
+  <div class='hackweb'>
+
+
+     <img class='hackwebimg' src="{% static "img/hackcville1.png" %}" alt="Hackcville Web Remake Project"> 
+    <p>This was a small project that I did with HackCville, during a UI/UX course that I took in 2019. Objective: Using Figma, create a pleasing benner for a website. </p>
+  </div>
+
+
+
+  <div class='hackmob'>
+
+     <img class='hackmobimg'src="{% static "img/hackcville2.png" %}" alt="Hackcville Web Remake Project">
+
+    <p>This was a small project that I did with HackCville, during a UI/UX course that I took in 2019. Objective: Remake the applcation UI in Figma. </p>
+  </div>
+
+
 </div>
 
 </div>

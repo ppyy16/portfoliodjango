@@ -53,6 +53,40 @@ document.getElementById('mlproj').addEventListener("click", function() {
 });
 
 
+document.getElementById('GH').addEventListener("click", function() {
+	document.querySelector('.bg-modal-2').style.display = "flex";
+	document.querySelector('.csclass').style.display = "flex";
+
+});
+
+document.getElementById('samsung').addEventListener("click", function() {
+	document.querySelector('.bg-modal-2').style.display = "flex";
+	document.querySelector('.samsung').style.display = "flex";
+
+});
+
+
+document.getElementById('spotify').addEventListener("click", function() {
+	document.querySelector('.bg-modal-2').style.display = "flex";
+	document.querySelector('.spotify').style.display = "flex";
+
+});
+
+
+
+document.getElementById('hackmobbtn').addEventListener("click", function() {
+	document.querySelector('.bg-modal-2').style.display = "flex";
+	document.querySelector('.hackmob').style.display = "flex";
+
+
+});
+
+document.getElementById('hackwebbtn').addEventListener("click", function() {
+	document.querySelector('.bg-modal-2').style.display = "flex";
+	document.querySelector('.hackweb').style.display = "flex";
+
+
+});
 
 
 
@@ -69,6 +103,11 @@ document.querySelector('.close').addEventListener("click", function() {
 	document.querySelector('.minimarketcont').style.display = "none";
 	document.querySelector('.nasapowercont').style.display = "none";
 	document.querySelector('.mlprojcont').style.display = "none";
+	document.querySelector('.csclass').style.display = "none";
+	document.querySelector('.samsung').style.display = "none";
+	document.querySelector('.spotify').style.display = "none";
+	document.querySelector('.hackmob').style.display = "none";
+	document.querySelector('.hackweb').style.display = "none";
 	// document.querySelector('.video').style.display = "none";
 
 
