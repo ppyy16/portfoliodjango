@@ -5,7 +5,7 @@ body {
   background-color: white;
   min-width: 730px; }
 
-iframe {
+iframe.pdf {
   display: none;
   border-radius: 10px;
   display: block;
@@ -17,7 +17,7 @@ iframe {
   /* Viewport-relative units */
   width: 99%; }
 
-*
+
 #mysidecontainer {
   overflow: hidden;
   display: inline-block; }

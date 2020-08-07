@@ -1,11 +1,21 @@
 .inmodimage {
-	height: 50%;
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
 
 }
 
+
+iframe.game {
+display: block;
+
+}
+
+
+#mel {
+		height: 25%;
+
+}
 .intitle {
 	display: center;
 
@@ -20,4 +30,20 @@
     width: 100%;
     margin: 0 auto;
     margin-top: 15px;
+}
+
+
+#pmarket {
+	height: 20%;
+}
+
+
+.msub {    
+
+	display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center
+
 }

@@ -124,13 +124,20 @@
 
 
    <div class='artisticgroovecont'>
-     
-<!--     <iframe class="game" frameborder="0" src="https://itch.io/embed-upload/1419497?color=333333" allowfullscreen="" width="800" height="470"><a href="https://ppyy16.itch.io/artisticgroove">Play ArtisticGroove on itch.io</a></iframe> -->
+     <div class= gamecont>
+      <h2 class="intitle">Artistic Groove</h2>
+      <sub> Scroll down for more information!</sub>
 
+<!--     <iframe class="game" frameborder="0" src="https://itch.io/embed-upload/1419497?color=333333" allowfullscreen="" width="800" height="500"><a href="https://ppyy16.itch.io/artisticgroove">Play ArtisticGroove on itch.io</a></iframe>
+ --></div>
    </div>
  <div class='bubbleteacont'>
-  <!--   <iframe class="game" frameborder="0" src="https://itch.io/embed-upload/1424307?color=333333" allowfullscreen="" width="900" height="600"><a href="https://ppyy16.itch.io/boba-fever">Play Boba Fever on itch.io</a></iframe> -->
-  </div>
+  <div class= "gamecont">
+  <h2 class="intitle">Boba Fever</h2>
+  <sub> Scroll down for more information!</sub>
+<!--     <iframe class="game" frameborder="0" src="https://itch.io/embed-upload/1424307?color=333333" allowfullscreen="" width="800" height="500"><a href="https://ppyy16.itch.io/boba-fever">Play Boba Fever on itch.io</a></iframe>
+ -->  </div>
+</div>
 
 
    <div class='nasapowercont'>
@@ -146,11 +153,14 @@
    <div class='minimarketcont'>
     <div class="in">
     <h2 class="intitle"> Welcome to Photo Mini-Market!</h2>
-    <span class="contwords"> In this project, me and a group of classmates and friends decided to create image manipulation "filters" by using seam carving and Voronoi diagrams. I will only be speaking about Voronoi as that was my contribution to the project. </span>
+    <span class="contwords"> In this project, me and a group of classmates and friends decided to create image manipulation "filters" by using seam carving and Voronoi diagrams. I will only be speaking about Voronoi as that was my contribution to the project. </span> <br>
+        <img class= "inmodimage" id="pmarket" src="{% static "img/minimarketprog.png" %}" alt="Voronoi Sample">
+
     <br>
+    <span class="contwords"> Initially, my idea of coding and manipulating this algorithm to work for image modification was to only gather points which have high entropy, meaning that they would capture the significant parts of the image where data retention is neccesary. After making this somewhat work, I realized that the image simply did not look like the original enough and realized that a randomized set of points would do just as well, if not better at preserving the image as well as reducing the error in detecting points of entropy in the first place which resulted in the final program. You can see the results below, turned out pretty well if I may say so myself!</span> <br> 
 
     <img class= "inmodimage" id="mel" src="{% static "img/melsample.png" %}" alt="Voronoi Sample">
-
+    <sub class="msub">As you can see, with an increased number of cells and points, the image becomes less and less abstract and more similar to the orginal</sub>
 
 </div>
 
