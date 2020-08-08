@@ -112,6 +112,8 @@ document.querySelector('.close').addEventListener("click", function() {
 	document.querySelector('.spotify').style.display = "none";
 	document.querySelector('.hackmob').style.display = "none";
 	document.querySelector('.hackweb').style.display = "none";
+	 $('#resumecontent').hide();	// document.querySelector('.spotify').style.display = "none";
+
 	// document.querySelector('.video').style.display = "none";
 
 
