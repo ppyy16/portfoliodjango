@@ -19,6 +19,20 @@ document.getElementById('resume').addEventListener("click", function() {
 });
 
 
+
+
+document.getElementById('introbutton').addEventListener("click", function() {
+	if (confirm('Under construction! In the meanwhile, would you like to be redirected to my older porfolio to view art works?')) {
+  // Save it!
+window.location.href = "https://psahbai.tumblr.com/";
+
+} else {
+  // Do nothing!
+  alert('No problem! You can still look at my work in the CompSci section!');
+}
+});
+
+
 document.getElementById('about').addEventListener("click", function() {
 	document.querySelector('.bg-modal').style.display = "flex";
 	document.querySelector('.aboutcontent').style.display = "flex";
