@@ -84,8 +84,8 @@ iframe.pdf {
 }
 
 
-.profilepicdiv {
-
+#profpic {
+position: fixed;
 
 }
 

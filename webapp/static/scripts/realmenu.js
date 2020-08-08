@@ -14,7 +14,7 @@ window.onload = function () {
 
 document.getElementById('resume').addEventListener("click", function() {
 	document.querySelector('.bg-modal').style.display = "flex";
-	 $('#resumecontent').toggle()
+	 $('#resumecontent').show()
 });
 
 
@@ -39,7 +39,7 @@ document.getElementById('about').addEventListener("click", function() {
 
 
 document.querySelector("#header > div.bg-modal > div > div.close").addEventListener("click", function() {
-		 $('#resumecontent').toggle()
+		 $('#resumecontent').hide()
 
 	document.querySelector('.aboutcontent').style.display = "none";
 	document.querySelector('.bg-modal').style.display = "none";
