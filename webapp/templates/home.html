@@ -22,6 +22,17 @@
 <p class="intro"> Parima Sahbai <p class="smalltext"> Software, art, and UI/UX Developer</p></p>
 
 </div>
+
+
+<script> $(document).ready(function() {
+   $('#resumecontent').hide();
+ 
+});
+
+</script>
+
+
+
 </head>
 
 <body>
@@ -75,7 +86,7 @@
 <div class='bg-modal'>
 	<div class='modal-content' >
 		<div class="close">+</div>
-		<div class='resumecontent'>
+		<div class='resumecontent' id='resumecontent'>
     <iframe class='pdf' src="{% static 'docs/parimasahbairesume.pdf' %}"></iframe>
 </div>
 <div class='contactcontent'>

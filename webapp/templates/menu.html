@@ -14,7 +14,12 @@
 	<meta charset="utf-8">
 
 
+<script> $(document).ready(function() {
+   $('#resumecontent').hide();
+ 
+});
 
+</script>
 
 </head>
 
@@ -82,7 +87,7 @@
   </div>
 
 
-    <div class='resumecontent'>
+    <div class='resumecontent' id='resumecontent'>
     <iframe class='pdf' src="{% static 'docs/parimasahbairesume.pdf' %}"></iframe>
 </div>
 

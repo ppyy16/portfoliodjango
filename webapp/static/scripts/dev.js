@@ -1,6 +1,10 @@
 window.onload = function () {
     document.querySelector('.bg-modal-2').style.display = "none";
+        document.querySelector('.bg-modal').style.display = "none";
+
 	document.querySelector('.bubbleteacont').style.display = "none";
+		document.querySelector('.nasapowercont').style.display = "none";
+
 	// document.querySelector('.csclass').style.display = "none";
 	// document.querySelector('.samsung').style.display = "none";
 	// document.querySelector('.spotify').style.display = "none";

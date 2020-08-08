@@ -3,7 +3,9 @@ a {
 
 body {
   background-color: white;
-  min-width: 730px; }
+  min-width: 730px; 
+
+}
 
 iframe.pdf {
   display: none;

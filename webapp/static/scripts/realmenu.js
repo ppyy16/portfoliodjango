@@ -2,8 +2,8 @@
 
 window.onload = function () {
     document.querySelector('.bg-modal').style.display = "none";
-	// document.querySelector('.resumecontent').style.display = "none";
-	// document.querySelector('.csclass').style.display = "none";
+	document.querySelector('.resumecontent').style.display = "none";
+		document.querySelector('.nasapowercont').style.display = "none";
 	// document.querySelector('.samsung').style.display = "none";
 	// document.querySelector('.spotify').style.display = "none";
 	// document.querySelector('.aboutcontent').style.display = "none";
@@ -11,7 +11,11 @@ window.onload = function () {
 
 }
 
+
+
 document.getElementById('resume').addEventListener("click", function() {
+
+	
 	document.querySelector('.bg-modal').style.display = "flex";
 	document.querySelector('.resumecontent').style.display = "flex";
 });

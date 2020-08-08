@@ -24,6 +24,22 @@
       </script>
 
 
+<script> $(document).ready(function() {
+   $('#nasapowercont').hide();
+    $('#hackmobcont').hide();
+   $('#mlprojcont').hide();
+   $('#artisticgroovecont').hide();
+   $('#minimarketcont').hide();
+   $('#bubbleteacont').hide();
+   $('#samsungcont').hide();
+   $('#ghcont').hide();
+   $('#spotifycont').hide();
+   $('#hackwebcont').hide();
+});
+
+
+</script>
+
 
 </head>
 <body>
@@ -152,12 +168,12 @@
     <div class="close">+</div>
 
 
-   <div class='artisticgroovecont'>
+   <div class='artisticgroovecont' id='artisticgroovecont'>
      <div class= gamecont>
       <h2 class="intitle">Artistic Groove</h2>
         <span>This game was a prototype and a part of the Computational Thinking K-12 Project that I did with Professor Rich Nguyen, at UVA. You can read more about the project, in my paper below. In this game the aim is to recreate the image (randomly selected) using various shapes. You can rotate these shapes by right clicking and place them appropriately on the canvas to create an abstract version of the image provided. This game was coded in C#, in Unity. </span>
 
-    <iframe class="game" frameborder="0" src="https://itch.io/embed-upload/1419497?color=333333" allowfullscreen="" width="800" height="500"><a href="https://ppyy16.itch.io/artisticgroove">Play ArtisticGroove on itch.io</a></iframe>
+    <iframe class="game" frameborder="0" src="https://itch.io/embed-upload/1419497?color=333333" allowfullscreen="" width="800" height="400"><a href="https://ppyy16.itch.io/artisticgroove">Play ArtisticGroove on itch.io</a></iframe>
 <br>
    <iframe class='pdf' src="{% static 'docs/artisticgroove.pdf' %}"></iframe>
 
@@ -169,7 +185,7 @@
 
 </div>
    </div>
- <div class='bubbleteacont'>
+ <div class='bubbleteacont' id='bubbleteacont'>
   <div class= "gamecont">
   <h2 class="intitle">Boba Fever</h2>
         <span>I developed this game out of my own love for the popular Taiwanese drink: Bubble (boba) Tea. Although I did not extensively work on the UI/UX design, but besides coding the game, I did create all the graphics from the photo of Ikea (where I was working) as the background, to the pixel graphics in the game. This game was coded in C#, in Unity. </span>
@@ -188,7 +204,7 @@
 </div>
 
 
-   <div class='nasapowercont'>
+   <div class='nasapowercont' id='nasapowercont'>
 
     <div class="in">
 
@@ -204,7 +220,7 @@
 
 </div>
 
-   <div class='mlprojcont'>
+   <div class='mlprojcont' id='mlprojcont'>
 
           <div class="in">
       <h2 class="intitle">Machine Learning for VA</h2>
@@ -221,7 +237,7 @@
 </div>
 
 
-   <div class='minimarketcont'>
+   <div class='minimarketcont' id='minimarketcont'>
     <div class="in">
     <h2 class="intitle"> Photo Mini-Market!</h2>
     <span class="contwords"> In this project, me and a group of classmates and friends decided to create image manipulation "filters" by using seam carving and Voronoi diagrams. I will only be speaking about Voronoi as that was my contribution to the project. </span> <br>
@@ -242,7 +258,7 @@
 
 </div>
 
-<div class='resumecontent csclass'>
+<div class='resumecontent csclass' id='ghcont'>
 
 
   <iframe class='pdf' src="{% static 'docs/guidelines.pdf' %}"></iframe>
@@ -251,7 +267,7 @@
   </div>
 
 
-  <div class='resumecontent samsung'>
+  <div class='resumecontent samsung' id='samsungcont'>
       <iframe class='pdf' src="{% static 'docs/Samsung.pdf' %}"></iframe>
 
 
@@ -260,7 +276,7 @@
 
 
 
-<div class='resumecontent spotify'>
+<div class='resumecontent spotify' id='spotifycont'>
 
         <iframe class='pdf' src="{% static 'docs/spotify.pdf' %}"></iframe>
 
@@ -268,7 +284,7 @@
 
 
 
-  <div class='hackweb'>
+  <div class='hackweb' id='hackwebcont'>
 
   <div class="in">
       <h2 class="intitle"> HackCville Web Mockup</h2>
@@ -284,7 +300,7 @@
 
 
 
-  <div class='hackmob'>
+  <div class='hackmob' id='hackmobcont'>
   
   <div class="in">
       <h2 class="intitle"> HackCville Mobile Mockup</h2>
